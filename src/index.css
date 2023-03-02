@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.circle {
+  width: 95%;
+  height: 75px;
+  background: linear-gradient(to right, #0965c0, #c53a94, #fcec41);
+  filter: blur(85px);
+  z-index: -1;
+}
