@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 .circle {
-  width: 95%;
+  width: 90%;
   height: 75px;
-  background: linear-gradient(to right, #0965c0, #c53a94, #fcec41);
-  filter: blur(85px);
+  background: linear-gradient(to right, #0965c0, #c53a94, #0fffaf);
+  filter: blur(87px);
   z-index: -1;
 }
