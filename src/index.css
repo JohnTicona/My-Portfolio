@@ -8,4 +8,5 @@
   background: linear-gradient(to right, #0965c0, #c53a94, #0fffaf);
   filter: blur(87px);
   z-index: -1;
+  margin-top: 3rem;
 }

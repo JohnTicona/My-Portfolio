@@ -1,9 +1,10 @@
-import { Home } from './components'
+import { Home, About } from './components'
 
 function App () {
   return (
     <>
       <Home />
+      <About />
     </>
   )
 }
