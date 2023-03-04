@@ -14,10 +14,10 @@ export const Hero = () => {
               Full Stack Developer
             </span>
           </h1>
-          <p className='text-base md:text-lg lg:text-xl text-gray-900 dark:text-gray-100 font-light mt-2 md:mt-8'>
+          <p className='text-base md:text-lg font-normal text-gray-500 dark:text-gray-400 mt-2 md:mt-8'>
             Soy una persona que le apasiona la tecnología, con muchas ganas de
             aprender, mejorar mis habilidades entonces que esperas 🚀
-            <span className='font-bold'> ¡Trabajemos juntos!</span>
+            <span className='font-semibold text-black dark:text-gray-200'> ¡Trabajemos juntos!</span>
           </p>
           <button className='text-base md:text-lg text-gray-800 dark:text-white bg-transparent border border-black dark:border-slate-300 hover:text-white hover:bg-slate-800  dark:hover:bg-slate-800 font-semibold rounded-md transition px-4 py-2 mt-7 '>
             Mis proyectos

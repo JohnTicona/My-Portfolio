@@ -71,8 +71,8 @@ export const listEducation = [
   },
   {
     id: '3',
-    institution: 'Centro de Educación Alternativa Don Bosco',
-    date: 'jun 2015 - dic 2021',
+    institution: 'CEA - Don Bosco',
+    date: 'feb 2018 - nov 2020',
     description: 'Técnico Medio en Sistemas Computacionales'
   }
 ]
