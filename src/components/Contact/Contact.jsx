@@ -3,7 +3,7 @@ import { ContactItem } from './ContactItem'
 
 export const Contact = () => {
   return (
-    <div className='container mx-auto px-5 mb-72'>
+    <div id='contact' className='container mx-auto px-5 mt-24 mb-16 md:mb-28'>
       <div className='text-center'>
         <h2 className='text-2xl dark:text-white border-b-4 border-b-emerald-400 dark:border-b-emerald-600 font-bold inline-block mb-5 uppercase'>
           Trabajemos juntos

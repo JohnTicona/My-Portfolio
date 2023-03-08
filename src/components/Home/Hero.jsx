@@ -19,9 +19,9 @@ export const Hero = () => {
             aprender, mejorar mis habilidades entonces que esperas 🚀
             <span className='font-semibold text-black dark:text-gray-200'> ¡Trabajemos juntos!</span>
           </p>
-          <button className='text-base md:text-lg text-gray-800 dark:text-white bg-transparent border border-black dark:border-slate-300 hover:text-white hover:bg-slate-800  dark:hover:bg-slate-800 font-semibold rounded-md transition px-4 py-2 mt-7 '>
+          <a href='#projects' className='inline-block text-base md:text-lg text-gray-800 dark:text-white bg-transparent border border-black dark:border-slate-300 hover:text-white hover:bg-slate-800  dark:hover:bg-slate-800 font-semibold rounded-md transition px-4 py-2 mt-7 cursor-pointer'>
             Mis proyectos
-          </button>
+          </a>
         </div>
         <div className='lg:w-3/5 flex justify-center lg:justify-end mt-6 lg:mt-0'>
           <img
@@ -31,6 +31,7 @@ export const Hero = () => {
           />
         </div>
       </div>
+      <div id='about' className='mb-16 md:mb:0' />
     </div>
   )
 }

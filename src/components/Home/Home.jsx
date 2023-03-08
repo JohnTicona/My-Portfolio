@@ -4,11 +4,10 @@ import { Navbar } from './Navbar'
 
 export const Home = () => {
   return (
-    <>
+    <div id='home'>
       <Navbar />
       <Gradient />
       <Hero />
-
-    </>
+    </div>
   )
 }
