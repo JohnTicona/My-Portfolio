@@ -32,6 +32,17 @@ export const Timeline = ({ data }) => {
           <p className='mb-4 text-base font-normal text-gray-500 dark:text-gray-400'>
             {item.description}
           </p>
+
+          <div className='flex flex-wrap gap-3'>
+            {item.technologies?.map(technology => (
+              <span
+                key={technology.id}
+                className={`inline-flex items-center rounded-md font-bold  px-2 py-1 text-sm ${technology.color} uppercase ring-1 ring-inset ${technology.ring}`}
+              >
+                {technology.name}
+              </span>
+            ))}
+          </div>
         </li>
       ))}
     </ol>

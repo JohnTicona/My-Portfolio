@@ -9,7 +9,7 @@ export const Navbar = () => {
         </span>
         <div className='flex items-center gap-4 sm:gap-5 dark:text-gray-200 text-sm sm:text-base tracking-wide'>
           <a href='#home'>Inicio</a>
-          <a href='#about'>Sobre Mi</a>
+          <a href='#about'>Sobre Mí</a>
           <a href='#projects'>Proyectos</a>
           {/* <a href='#services'>Servicios</a> */}
           <a href='#contact'>Contacto</a>
