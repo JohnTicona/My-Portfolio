@@ -88,7 +88,8 @@ export const listEducation = [
 ]
 
 export const listExperience = [
-  {
+
+  /* {
     id: '1',
     institution: 'Jesús del Gran Poder S.A.',
     // date: 'mar 2023 - septiembre 2023',
@@ -126,6 +127,7 @@ export const listExperience = [
       }
     ]
   },
+  */
   {
     id: '2',
     institution: 'Bootcamp Soy Henry (Proyecto Grupal)',
